@@ -9,7 +9,7 @@ This project involves:
   4. **Analytics & Reporting**: Creating SQL-based reports and dashboards fro actionable insights.
 
 ## **Project Requirements**
-**Building the Data Warehouse (Data Engineering)**
+### **Building the Data Warehouse (Data Engineering)**
 
 **Objective**
 
