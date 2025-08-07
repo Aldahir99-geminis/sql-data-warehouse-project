@@ -8,6 +8,7 @@ Script Purpose:
 	within the database: 'bronze', 'silver' and 'golden'.
 */
 
+
 -- USE THE MASTER DB
 USE master;
 GO
@@ -15,7 +16,7 @@ GO
 -- DROP AND RECREATE THE 'DataWarehouse' DATABASE
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
-	ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK INMEDIATE;
+	ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
 	DROP DATABASE DataWarehouse;
 END;
 GO
